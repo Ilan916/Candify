@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JobTrackr
 
-## Getting Started
+**JobTrackr** est une application web moderne permettant de suivre efficacement ses candidatures à des offres d'emploi.
 
-First, run the development server:
+## 🎯 Objectif du projet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Aider les jeunes diplômés à organiser et suivre leur recherche d'emploi, sans se perdre entre les mails, fichiers Excel, et plateformes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧑‍💻 Cible utilisateur
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Étudiants et jeunes diplômés en recherche active.
+- Développeurs juniors en reconversion ou en veille.
+- Freelances ou consultants tech souhaitant garder un historique de prospection.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Problèmes résolus
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📊 Visualiser rapidement l’état des candidatures.
+- 📁 Centraliser les infos clés (CV, lettre, contacts RH).
+- ⏰ Relancer les recruteurs au bon moment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔧 Stack technique
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Catégorie       | Techno                         |
+|----------------|--------------------------------|
+| Framework Front | Next.js 14 (App Router)        |
+| Langage         | TypeScript                     |
+| UI              | Tailwind CSS + shadcn/ui       |
+| Auth            | Supabase Auth                  |
+| DB              | Supabase + Prisma              |
+| Tests           | Jest + React Testing Library   |
+| CI/CD           | GitHub Actions + Vercel        |
+| Lint/Format     | ESLint + Prettier              |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📦 Fonctionnalités
+
+- Authentification sécurisée (Supabase)
+- Tableau de bord des candidatures
+- Ajout / édition / suppression de candidatures
+- Filtres (statut, entreprise, date, etc.)
+- Statistiques visuelles (réponses, relances, entretiens)
+- Relances automatiques ou suggestions de suivi
+- Lecture et analyse de candidatures par IA** (reconnaissance de mots-clés, pertinence par rapport au poste)
+- Analyse de CV pour feedback personnalisé** (améliorations suggérées, mise en forme, sections manquantes)
+
+---
+
+## 🚀 Déploiement
+
+- En cours de dev
+- Déploiement final prévu sur [Vercel](https://vercel.com)
+
+---
+
+## 🤝 Contribuer
+
+Projet solo mais open-source. Si tu veux contribuer ou le cloner, go fork !
+
