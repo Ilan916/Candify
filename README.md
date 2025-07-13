@@ -1,4 +1,4 @@
-# JobTrackr
+# Candify
 
 **JobTrackr** est une application web moderne permettant de suivre efficacement ses candidatures à des offres d'emploi.
 
@@ -11,7 +11,6 @@ Aider les jeunes diplômés à organiser et suivre leur recherche d'emploi, sans
 ## 🧑‍💻 Cible utilisateur
 
 - Étudiants et jeunes diplômés en recherche active.
-- Développeurs juniors en reconversion ou en veille.
 - Freelances ou consultants tech souhaitant garder un historique de prospection.
 
 ---
@@ -28,7 +27,7 @@ Aider les jeunes diplômés à organiser et suivre leur recherche d'emploi, sans
 
 | Catégorie       | Techno                         |
 |----------------|--------------------------------|
-| Framework Front | Next.js 14 (App Router)        |
+| Framework Front | Next.js 15 (App Router)        |
 | Langage         | TypeScript                     |
 | UI              | Tailwind CSS + shadcn/ui       |
 | Auth            | Supabase Auth                  |
