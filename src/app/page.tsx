@@ -4,18 +4,18 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen  bg-neutral-900">
-      <header className="flex items-center justify-between px-6 py-4 border-b-2 border-white/60">
+    <main className="min-h-screen bg-muted">
+      <header className="flex items-center justify-between px-6 py-4 border-b-2 border-primary">
         <Link href="/">
-          <p className="text-white uppercase font-bold">Candify</p>
+          <p className="text-black uppercase font-bold">Candify</p>
         </Link>
         <div className="flex gap-3">
-          <Button variant="outline" asChild>
-            <Link href="/authentification/connexion">Se connecter</Link>
+          <Button asChild>
+            <Link href="/login">Se connecter</Link>
           </Button>
 
           <Button asChild>
-            <Link href="/authentification/inscription">S'inscrire</Link>
+            <Link href="/register">S'inscrire</Link>
           </Button>
         </div>
       </header>
